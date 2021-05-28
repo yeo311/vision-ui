@@ -1,0 +1,27 @@
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputBoxContainer {
+  display: flex;
+  flex-basis: 2.5rem;
+  align-self: stretch;
+}
+
+.inputBoxContainer .urlInput {
+  flex: 1;
+  border: 1px solid lightgray;
+  border-radius: 0px;
+  padding-left: 1rem;
+}
+
+.inputBoxContainer .submit {
+  flex-basis: 100px;
+  border: 1px solid lightgray;
+  border-radius: 0px;
+}
